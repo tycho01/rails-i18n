@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
   s.rubyforge_project = '[none]'
   s.required_rubygems_version = '>= 1.3.5'
 
-  s.add_dependency('i18n', '~> 0.6')
+  s.add_dependency('i18n', '>= 0.6')
   s.add_dependency('railties', '>= 4.0')
   s.add_development_dependency "railties", "= 4.0.4"
   s.add_development_dependency "rspec-rails", "= 2.14.2"
